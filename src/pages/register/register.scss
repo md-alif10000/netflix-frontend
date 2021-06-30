@@ -1,0 +1,94 @@
+.register {
+    width: 100wh;
+    height: 100vh;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 1) 100%),
+        url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+    background-size: cover;
+    position: relative;
+
+    .top {
+
+        .wrapper {
+            padding: 20px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .logo {
+                height: 40px;
+                cursor: pointer;
+            }
+
+            .loginButton {
+                background-color: red;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 5px 15px;
+                font-weight: 600;
+                cursor: pointer;
+                font-size: 16px;
+            }
+
+
+        }
+
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+
+        h1,
+        h2,
+        p {
+            text-align: center;
+        }
+
+        h2 {
+            margin: 20px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .input {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 80%;
+            max-width: 700px;
+            margin-top: 20px;
+            height: 50px;
+            border-radius: 5px;
+            input{
+                width: 80%;
+                height: 100%;
+                border: none;
+                padding: 0 10px;
+            }
+            button{
+                width: 20%;
+                height: 100%;
+                background-color: red;
+                border: none;
+                font-size: 20px;
+                font-weight: 500;
+                cursor: pointer;
+                color: white;
+            }
+
+
+        }
+    }
+
+}
